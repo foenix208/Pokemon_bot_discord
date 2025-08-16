@@ -6,6 +6,7 @@ const loadEvents = require("./loaders/loadEvents");
 const dotenv = require("dotenv");
 const { name } = require("./commands/utils/ping");
 
+
 dotenv.config();
 client.commands = new Collection();
 
